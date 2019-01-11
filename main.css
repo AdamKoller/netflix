@@ -1,0 +1,897 @@
+/** {
+  box-sizing: border-box;
+}*/
+/* body {
+	line-height: 1;
+	width: 100%;
+	overflow-x: hidden;
+} */
+header {
+  background: black;
+
+  text-decoration: none;
+  height:130px;
+  width: 100%;
+}
+header .left-menu {
+  float:left;
+  display:inline-block;
+  color:red;
+  padding:110px;
+  margin-top: -36px;
+}
+header .left-menu .logo {
+  display:inline-block;
+  padding-right: 20px;
+  font-family: 'Anton', sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  margin-top: -41px;
+  margin-left: 86px;
+}
+header .left-menu .logo a{
+  text-decoration: none;
+  color:red;
+}
+header .right-menu {
+  float: right;
+  color:red;
+  padding:42px;
+  margin: 16px 60px 16px 0;
+  /* display: inline-flex; */
+}
+header .right-menu .search-icon {
+  display: inline-block;
+  font-size: 30px;
+}
+header .right-menu .search-icon a {
+  text-decoration: none;
+  color:red;
+}
+header .right-menu .search-icon a:hover {
+  text-decoration: none;
+  color:white;
+}
+header .right-menu .search input {
+  background: black;
+  display: inline-block;
+  font-size: 20px;
+  border: 0;
+  margin-left: 10px;
+}
+header .right-menu .search input:focus {
+  outline: none;
+  border: 0;
+  color:darkgrey;
+}
+header .right-menu .search input[placeholder='Search'] {
+  font-style: italic;
+  font-size: 30px;
+}
+header .right-menu .search input[type='text'] {
+  font-style: normal;
+}
+ header .right-menu .search {
+  display: inline-block;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+}
+header .right-menu .search {
+  text-decoration: none;
+  color:red;
+}
+header .right-menu .user-icon {
+  display: inline-block;
+  font-size: 30px;
+  padding-left: 30px;
+}
+header .right-menu .user-icon a{
+  color:red;
+}
+header .right-menu .user-icon a:hover{
+  color:white;
+  text-decoration: none;
+}
+header .right-menu .user-menu {
+  display: inline-block;
+  font-family: 'Pathway Gothic One', sans-serif;
+  padding-left:3px;
+  font-size: 30px;
+  font-weight: 100;
+}
+header .right-menu .user-dropdown {
+  display: inline-block;
+  padding-left: 14px;
+}
+header .right-menu .user-dropdown a{
+  color:red;
+  font-size:26px;
+}
+
+#large-img {
+  background:-webkit-linear-gradient(-45deg, rgba(42,42,43,.3) 0%, #000000 100%),
+  url('aliencovenant.jpeg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 450px 100px;
+  width: 95%;
+  height: 50%;
+  background-position: center;
+
+}
+#large-img .left-box {
+  width: 50%;
+  margin-left: 230px;
+}
+#large-img .left-box h3 {
+  color:white;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 100;
+  font-size:40px;
+}
+#large-img .left-box h3 .netflix {
+  font-weight: bold;
+  font-size: 70px;
+}
+#large-img .left-box h1 {
+  color:white;
+  font-size: 120px;
+  margin:30px 0 30px 0;
+  font-family: 'Thasadith', sans-serif;
+  font-weight:700;
+  letter-spacing: 150px;
+}
+#large-img .left-box h1 .covenant {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 92px;
+  margin-left: 20px;
+}
+#large-img .left-box h4 {
+  color:white;
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: 100;
+  font-family: 'Pathway Gothic One', sans-serif;
+  margin-left: 11px;
+}
+#large-img .left-box .stars {
+  font-size: 42px;
+  color: darkgrey;
+  margin-bottom: 50px;
+}
+#large-img .left-box .stars .star-1,
+.star-2,
+.star-3,
+.star-4,
+.star-6 {
+  color:red;
+}
+#large-img .left-box .stars .star-6{
+  margin-left: -58px;
+}
+#large-img .left-box .button1 {
+  border: none;
+  border-radius: 5px;
+  width:120px;
+  background:white;
+  display: inline-block;
+  font-family: 'Pathway Gothic One', sans-serif;
+  padding:26px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+}
+#large-img .left-box .button1:hover {
+  background: red;
+  cursor: pointer;
+  transition: .5s ease;
+}
+#large-img .left-box .button2 {
+  border: none;
+  border-radius: 5px;
+  width:120px;
+  background:white;
+  display: inline-block;
+  font-family: 'Pathway Gothic One', sans-serif;
+  padding:26px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+}
+#large-img .left-box .button2 .fa{
+  display: inline-block;
+}
+#large-img .left-box .button2 .my-list{
+  display: inline-block;
+}
+#large-img .left-box .button2:hover {
+  background:red;
+  cursor: pointer;
+  transition: .5s ease;
+}
+#videosection {
+  height:1850px;
+  width: 100%;
+  background: -webkit-linear-gradient(-45deg, rgba(38,38,38,.7) 0%, #000000 100%);
+}
+#videosection .continue-watching{
+  font-size: 50px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  color:white;
+  padding: 10px;
+  font-weight: lighter;
+  margin-bottom: 28px;
+  padding-top: 40px;
+  margin-left: 190px;
+}
+      /* continue watching section */
+.row-1 {
+  width:100%;
+  font-size: 0;
+  margin-top:6px;
+  display: inline-flex;
+  margin-left: 61px;
+}
+/* .row-1 .watching .play-1  {
+  opacity: 0;
+}
+.row-1 .watching:hover .far {
+  opacity: 1;
+  color:white;
+}
+.row-1 .watching:hover i:hover {
+  color:red;
+  transition: .2s ease-in-out;
+  opacity: 1;
+}
+.row-1 .watching .play-1,
+.play-2,
+.play-3,
+.play-4 {
+  font-size: 100px;
+  color:white;
+  padding-top:90px;
+  padding-left: 170px;
+  opacity: 1;
+}
+.row-1 .watching .play-1 .info-1 {
+  width: 520px;
+  margin-left: -165px;
+  margin-top: -80px;
+}
+.row-1 .watching .play-1 .info-1 h1 {
+  font-size: 50px;
+}
+.row-1 .watching .play-1 .info-1 h4 {
+  font-size: 30px;
+  font-style: italic;
+}
+.watching {
+  background: ;
+  width:20%;
+  margin: 30px 0 0 10px;
+  display: inline-block;
+  height: 150px;
+  font-size: 16px;
+  padding-right:50px;
+  background-color: grey;
+} */
+.video1 {
+  background:
+  url('rick.jpeg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 680px;
+  width: 31.5%;
+  background-color: rgba(170,170,170,0.6);
+  position: relative;
+
+}
+.video1 .overlay-1 {
+  background: rgba(0,0,0,.6);
+  color:grey;
+  opacity:0;
+  padding:50px;
+  height:580px;
+  width:1110px;
+}
+.video1:hover .overlay-1 {
+  opacity: 1;
+  border: 3px solid white;
+  width:1110px;
+  position: absolute;
+  transition: .4s ease;
+  height:580px;
+  bottom:0px;
+}
+.video1:hover .overlay-1 h1 {
+  font-size: 70px;
+  visibility: visible;
+  color: white;
+  text-align: left;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 100;
+}
+.video1:hover .overlay-1 h4 {
+  font-size: 50px;
+  visibility: visible;
+  color: white;
+  font-style: italic;
+  text-align: left;
+  margin-top: 15px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 100;
+}
+.video1:hover .overlay-1 i {
+  font-size: 120px;
+  visibility: visible;
+  color: white;
+  margin-top: 100px;
+  margin-left:500px;
+}
+.video1:hover .overlay-1 i:hover {
+  color:red;
+  transition: .5s ease;
+  cursor: pointer;
+}
+ .video1:hover .overlay-1 .progress-1 {
+  height:20px;
+  width:250px;
+  background-color: red;
+  margin-top: 258px;
+  margin-left: -50px;
+  background: -webkit-linear-gradient(left, rgba(255,26,0,0.32) 0%,rgba(255,26,0,0.32) 1%,rgba(255,26,0,1) 100%)
+}
+ .video2 {
+  background:
+  url('30.jpeg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 680px;
+  width: 31.5%;
+  background-color: rgba(170,170,170,0.6);
+  position: relative;
+  margin-left: 18px;
+}
+.video2 .overlay-2 {
+  background: rgba(0,0,0,.6);
+  color:grey;
+  opacity:0;
+  padding:50px;
+  height:580px;
+  width:1110px;
+}
+.video2:hover .overlay-2 {
+  opacity: 1;
+  border: 3px solid white;
+  width:1110px;
+  position: absolute;
+  transition: .4s ease;
+  height:580px;
+  bottom:0px;
+}
+.video2:hover .overlay-2 h1 {
+  font-size: 70px;
+  visibility: visible;
+  color: white;
+  text-align: left;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 100;
+}
+.video2:hover .overlay-2 i {
+  font-size: 120px;
+  visibility: visible;
+  color: white;
+  margin-top: 150px;
+  margin-left:500px;
+}
+.video2:hover .overlay-2 i:hover {
+  color:red;
+  transition: .5s ease;
+  cursor: pointer;
+}
+.video2:hover .overlay-2 .progress-2 {
+ height:20px;
+ width:900px;
+ background-color: red;
+ margin-top: 270px;
+ margin-left: -49px;
+ background: -webkit-linear-gradient(left, rgba(255,26,0,0.32) 0%,rgba(255,26,0,0.32) 1%,rgba(255,26,0,1) 100%)
+}
+.video3 {
+  background:
+  url('abyss.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 680px;
+  width: 31.5%;
+  background-color: rgba(170,170,170,0.6);
+  position: relative;
+  margin-left: 18px;
+  margin-right: 11px;
+}
+.video3 .overlay-3 {
+  background: rgba(0,0,0,.6);
+  color:grey;
+  opacity:0;
+  padding:50px;
+  height:580px;
+  width:1110px;
+}
+.video3:hover .overlay-3 {
+  opacity: 1;
+  border: 3px solid white;
+  width:1110px;
+  position: absolute;
+  transition: .4s ease;
+  height:580px;
+  bottom:0px;
+}
+.video3:hover .overlay-3 h1 {
+  font-size: 70px;
+  visibility: visible;
+  color: white;
+  text-align: left;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 100;
+}
+.video3:hover .overlay-3 i {
+  font-size: 120px;
+  visibility: visible;
+  color: white;
+  margin-top: 150px;
+  margin-left:500px;
+}
+.video3:hover .overlay-3 i:hover {
+  color:red;
+  transition: .5s ease;
+  cursor: pointer;
+}
+.video3:hover .overlay-3 .progress-3 {
+ height:20px;
+ width:600px;
+ background-color: red;
+ margin-top: 270px;
+ margin-left: -49px;
+ background: -webkit-linear-gradient(left, rgba(255,26,0,0.32) 0%,rgba(255,26,0,0.32) 1%,rgba(255,26,0,1) 100%)
+}
+/* .video4 {
+  background:
+  url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbM2Cv936epNUqpYGxGuS3H4AH7Wgf-Ex6oQuxfVgvAUAZiVG9nw);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+  width: 540px;
+  background-color: rgba(170,170,170,0.6);
+  position: relative;
+  margin-left: 58px;
+}
+.video4 .overlay-4 {
+  position: absolute;
+  bottom: 0px;
+  background: rgba(0,0,0,.5);
+  color:grey;
+  width:316px;
+  transition: .5s ease;
+  opacity:0;
+  padding:50px;
+  height:200px;
+}
+.video4:hover .overlay-4 {
+  opacity: 1;
+}
+.video4:hover .overlay-4 h1 {
+  font-size: 40px;
+  visibility: visible;
+  color: white;
+  text-align: left;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 100;
+}
+.video4:hover .overlay-4 h4 {
+  font-size: 20px;
+  visibility: visible;
+  color: white;
+  font-style: italic;
+  text-align: left;
+  margin-top: 15px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 100;
+}
+.video4:hover .overlay-4 i {
+  font-size: 70px;
+  visibility: visible;
+  color: white;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+.video4:hover .overlay-4 i:hover {
+  color:red;
+  transition: .5s ease;
+  cursor: pointer;
+} */
+
+      /* TOP PICKS SECTIONS  */
+#videosection .top-picks {
+  font-size: 50px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  color:white;
+  padding: 10px;
+  font-weight: lighter;
+  margin-bottom: 42px;
+  padding-top: 56px;
+  margin-left: 198px;
+}
+.row-2 {
+  width:100%;
+  font-size: 0;
+  margin-top:-15px;
+  display: inline-flex;
+  margin-left: 160px;
+}
+/* .videoboxes {
+  background: red;
+  width:312px;
+  margin: 30px -14px 0 35px;
+  display: inline-block;
+  height: 400px;
+  font-size: 16px;
+  padding:117px;
+  object-fit: cover;
+  padding-right: 14px;
+} */
+.video5 {
+  background:
+  url('avatar.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-left: -98px;
+  object-fit: cover;
+  height: 806px;
+  width: 15.5%;
+  background-color: rgba(170,170,170,0.6);
+}
+.video5 .overlay-5 {
+  background:rgba(0,0,0,.6);
+  color:grey;
+  opacity:0;
+  padding:40px;
+  height:730px;
+  width:515px;
+}
+.video5:hover .overlay-5 {
+  opacity: 1;
+  height:730px;
+  width:515px;
+  transition: .4s ease-in-out;
+}
+.video5:hover .overlay-5 h1 {
+  font-size: 70px;
+  visibility: visible;
+  color: white;
+  text-align: left;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 100;
+}
+.video5:hover .overlay-5 h4 {
+  font-size: 25px;
+  visibility: visible;
+  color: white;
+  font-style: italic;
+  text-align: left;
+  margin-top: 15px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 100;
+}
+.video5:hover .overlay-5 i {
+  font-size: 120px;
+  visibility: visible;
+  color: white;
+  margin-top: 200px;
+  margin-left:200px;
+}
+.video5:hover .overlay-5 i:hover {
+  color:red;
+  transition: .5s ease;
+  cursor: pointer;
+}
+.video6 {
+  background:
+  url('thething.jpeg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: rgba(170,170,170,0.6);
+  object-fit: cover;
+  height: 806px;
+  width: 15.5%;
+  margin-left: 21px;
+  /* position: relative; */
+}
+.video6 .overlay-6 {
+  background:rgba(0,0,0,.6);
+  color:grey;
+  opacity:0;
+  padding:40px;
+  height:730px;
+  width:515px;
+}
+.video6:hover .overlay-6 {
+  opacity: 1;
+  height:730px;
+  width:515px;
+  transition: .4s ease-in-out;
+}
+.video6:hover .overlay-6 h1 {
+  font-size: 70px;
+  visibility: visible;
+  color: white;
+  text-align: left;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 100;
+}
+.video6:hover .overlay-6 h4 {
+  font-size: 25px;
+  visibility: visible;
+  color: white;
+  font-style: italic;
+  text-align: left;
+  margin-top: 15px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 100;
+}
+.video6:hover .overlay-6 i {
+  font-size: 120px;
+  visibility: visible;
+  color: white;
+  margin-top: 200px;
+  margin-left:200px;
+}
+.video6:hover .overlay-6 i:hover {
+  color:red;
+  transition: .5s ease;
+  cursor: pointer;
+}
+.video7 {
+  background:
+  url('machina.jpeg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  object-fit: cover;
+  height: 806px;
+  width: 15.5%;
+  margin-left: 21px;
+  /* position: relative; */
+}
+.video7 .overlay-7 {
+  background:rgba(0,0,0,.6);
+  color:grey;
+  opacity:0;
+  padding:40px;
+  height:730px;
+  width:515px;
+}
+.video7:hover .overlay-7 {
+  opacity: 1;
+  height:730px;
+  width:515px;
+  transition: .4s ease-in-out;
+}
+.video7:hover .overlay-7 h1 {
+  font-size: 70px;
+  visibility: visible;
+  color: white;
+  text-align: left;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 100;
+}
+.video7:hover .overlay-7 h4 {
+  font-size: 25px;
+  visibility: visible;
+  color: white;
+  font-style: italic;
+  text-align: left;
+  margin-top: 15px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 100;
+}
+.video7:hover .overlay-7 i {
+  font-size: 120px;
+  visibility: visible;
+  color: white;
+  margin-top: 200px;
+  margin-left:200px;
+}
+.video7:hover .overlay-7 i:hover {
+  color:red;
+  transition: .5s ease;
+  cursor: pointer;
+}
+.video8 {
+  background:/*-webkit-linear-gradient(-45deg, rgba(42,42,43,.7) 0%, #000000 100%),*/
+  url('2001.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  object-fit: cover;
+  height: 806px;
+  width: 15.5%;
+  margin-left: 21px;
+  /* position: relative; */
+}
+.video8 .overlay-8 {
+  background:rgba(0,0,0,.6);
+  color:grey;
+  opacity:0;
+  padding:40px;
+  height:730px;
+  width:515px;
+}
+.video8:hover .overlay-8 {
+  opacity: 1;
+  height:730px;
+  width:515px;
+  transition: .4s ease-in-out;
+}
+.video8:hover .overlay-8 h1 {
+  font-size: 70px;
+  visibility: visible;
+  color: white;
+  text-align: left;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 100;
+}
+.video8:hover .overlay-8 h4 {
+  font-size: 25px;
+  visibility: visible;
+  color: white;
+  font-style: italic;
+  text-align: left;
+  margin-top: 15px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 100;
+}
+.video8:hover .overlay-8 i {
+  font-size: 120px;
+  visibility: visible;
+  color: white;
+  margin-top: 136px;
+  margin-left:200px;
+}
+.video8:hover .overlay-8 i:hover {
+  color:red;
+  transition: .5s ease;
+  cursor: pointer;
+}
+.video9 {
+  background:
+  url('titan.jpeg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  object-fit: cover;
+  height: 806px;
+  width: 15.5%;
+  margin-left: 21px;
+  /* position: relative; */
+}
+.video9 .overlay-9 {
+  background:rgba(0,0,0,.6);
+  color:grey;
+  opacity:0;
+  padding:40px;
+  height:730px;
+  width:515px;
+}
+.video9:hover .overlay-9 {
+  opacity: 1;
+  height:730px;
+  width:515px;
+  transition: .4s ease-in-out;
+}
+.video9:hover .overlay-9 h1 {
+  font-size: 70px;
+  visibility: visible;
+  color: white;
+  text-align: left;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 100;
+}
+.video9:hover .overlay-9 h4 {
+  font-size: 25px;
+  visibility: visible;
+  color: white;
+  font-style: italic;
+  text-align: left;
+  margin-top: 15px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 100;
+}
+.video9:hover .overlay-9 i {
+  font-size: 120px;
+  visibility: visible;
+  color: white;
+  margin-top: 200px;
+  margin-left:200px;
+}
+.video9:hover .overlay-9 i:hover {
+  color:red;
+  transition: .5s ease;
+  cursor: pointer;
+}
+.video10 {
+  background:
+  url('hellboy.jpeg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  object-fit: cover;
+  height: 806px;
+  width: 15.5%;
+  margin-left: 21px;
+  position: relative;
+}
+.video10 .overlay-10 {
+  background:rgba(0,0,0,.6);
+  color:grey;
+  opacity:0;
+  padding:40px;
+  height:730px;
+  width:515px;
+}
+.video10:hover .overlay-10 {
+  opacity: 1;
+  height:730px;
+  width:515px;
+  transition: .4s ease-in-out;
+}
+.video10:hover .overlay-10 h1 {
+  font-size: 70px;
+  visibility: visible;
+  color: white;
+  text-align: left;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 100;
+}
+.video10:hover .overlay-10 h4 {
+  font-size: 25px;
+  visibility: visible;
+  color: white;
+  font-style: italic;
+  text-align: left;
+  margin-top: 15px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-weight: 100;
+}
+.video10:hover .overlay-10 i {
+  font-size: 120px;
+  visibility: visible;
+  color: white;
+  margin-top: 200px;
+  margin-left:200px;
+}
+.video10:hover .overlay-10 i:hover {
+  color:red;
+  transition: .5s ease;
+  cursor: pointer;
+}

@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
     <title>Netflix Clone</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Thasadith:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <link rel='stylesheet' href='main.css'>
     <link rel='stylesheet' href='reset.css'>
   </head>
@@ -13,7 +15,8 @@
     <header>
       <div class='left-menu'>
         <div class='logo'>
-          <a href='#'>NETFLIX</a>
+          <!-- <a href='#'>NETFLIX</a> -->
+          <img class='resize' src='netflix.jpg'>
         </div>
       </div>
       <div class='right-menu'>
@@ -38,9 +41,8 @@
 
     <div id='large-img'>
       <div class='left-box'>
-        <h3><span class='netflix'>NETFLIX</span> FEATURE</h3>
+        <!-- <h3><span class='netflix'>NETFLIX</span> FEATURE</h3> -->
         <h1>ALIEN <br> <span class='covenant'>COVENANT</span></h1>
-        <h4> R | 2h 2min</h4>
         <div class='stars'>
           <span class='star-1'><i class="fas fa-star"></i></span>
           <span class='star-2'><i class="fas fa-star"></i></span>
@@ -48,7 +50,11 @@
           <span class='star-4'><i class="fas fa-star"></i></span>
           <span class='star-5'><i class="fas fa-star"></i></span>
           <span class='star-6'><i class="fas fa-star-half"></i></span>
+          <h4><span class='rated'> R</span> </h4>
+          <div class='box-1'> <span class='def'>HD</span></div>
+          <div class='box-2'><span class='ratio'> 5:1</span></div>
         </div>
+        <div class='description'>The crew of a colony ship, bound for a remote planet, discover an uncharted paradise with a threat beyond their imagination, and must attempt a harrowing escape.</div>
         <div class='button1'>Play</div>
         <div class='button2'>
           <i class="fas fa-plus"></i>
@@ -67,6 +73,7 @@
 
       <div class='row-1'>
         <div class='watching video1'>
+          <img class='resize' src='rick.jpeg'>
             <div class='overlay-1'>
               <h1>Rick and Morty</h1>
               <h4>S2:E6</h4>
@@ -76,6 +83,7 @@
             </div>
         </div>
         <div class='watching video2'>
+          <img class='resize' src='30.jpeg'>
           <div class='overlay-2'>
             <h1>30 Days of Night</h1>
             <i class="far fa-play-circle"></i>
@@ -85,6 +93,7 @@
         </div>
 
         <div class='watching video3'>
+          <img class='resize' src='abyss.jpg'>
           <div class='overlay-3'>
             <h1>The Abyss</h1>
             <i class="far fa-play-circle"></i>
@@ -100,46 +109,57 @@
 
       <div class='row-2'>
         <div class='videoboxes video5'>
-          <div class='overlay-5'>
-            <h1>Avatar</h1>
-            <h4>PG-13 | Sci-Fi | 2h 36m </h4>
-            <i class="far fa-play-circle"></i>
-          </div>
+          <img class='resize' src='avatar.jpg'>
+            <div class='overlay-5'>
+              <h1>Avatar</h1>
+              <h4>PG-13 | Sci-Fi | 2h 36m</h4>
+              <div class='button1'>Play</div>
+            </div>
         </div>
+
         <div class='videoboxes video6'>
-          <div class='overlay-6'>
-            <h1>The Thing</h1>
-            <h4>R | Horror | 2h 3m </h4>
-            <i class="far fa-play-circle"></i>
-          </div>
+          <img class='resize' src='thething.jpeg'>
+            <div class='overlay-6'>
+              <h1>The Thing</h1>
+              <h4>R | Horror | 1h 48m</h4>
+              <div class='button1'>Play</div>
+            </div>
         </div>
+
         <div class='videoboxes video7'>
-          <div class='overlay-7'>
-            <h1>Ex Machina</h1>
-            <h4>R | Sci-Fi | 1h 56m </h4>
-            <i class="far fa-play-circle"></i>
-          </div>
+          <img class='resize' src='machina.jpeg'>
+            <div class='overlay-7'>
+              <h1>Ex Machina</h1>
+              <h4>R | Sci-Fi | 2h 05m</h4>
+              <div class='button1'>Play</div>
+            </div>
         </div>
+
         <div class='videoboxes video8'>
-          <div class='overlay-8'>
-            <h1>2001: A Space Odyssey</h1>
-            <h4>PG | Sci-Fi | 2h 15m </h4>
-            <i class="far fa-play-circle"></i>
-          </div>
+          <img class='resize' src='2001.jpg'>
+            <div class='overlay-8'>
+              <h1>2001: A Space Odyssey</h1>
+              <h4>PG | Sci-Fi | 2h 27m</h4>
+              <div class='button1'>Play</div>
+            </div>
         </div>
+
         <div class='videoboxes video9'>
-          <div class='overlay-9'>
-            <h1>Titan A.E.</h1>
-            <h4>Pg-13 | Sci-Fi | 1h 32m </h4>
-            <i class="far fa-play-circle"></i>
-          </div>
+          <img class='resize' src='titan.jpeg'>
+            <div class='overlay-9'>
+              <h1>Titan A.E.</h1>
+              <h4>PG-13 | Sci-Fi | 1h 32m</h4>
+              <div class='button1'>Play</div>
+            </div>
         </div>
+
         <div class='videoboxes video10'>
-          <div class='overlay-10'>
-            <h1>Hellboy</h1>
-            <h4>PG-13 | Action | 1h 48m </h4>
-            <i class="far fa-play-circle"></i>
-          </div>
+          <img class='resize' src='hellboy.jpeg'>
+            <div class='overlay-10'>
+              <h1>Hellboy</h1>
+              <h4>PG-13 | Sci-Fi | 1h 58m</h4>
+              <div class='button1'>Play</div>
+            </div>
         </div>
       </div>
 

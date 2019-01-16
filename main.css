@@ -1,4 +1,4 @@
-  header {
+header {
     background: black;
     text-decoration: none;
     height:60px;
@@ -103,7 +103,7 @@
     -o-background-size: cover;
     background-size: cover;
     padding: 345px 0px;
-    width: 100%;
+    width: 85%;
     height: 0px;
     background-position: center;
     margin-left: 350px;
@@ -216,7 +216,6 @@
     font-size: 20px;
     width: 430px;
     font-family: 'Noto Sans', sans-serif;
-    /* font-style: italic; */
     line-height: 1.4;
     font-weight: 100;
     letter-spacing: 0px;
@@ -268,7 +267,9 @@
     background: black;
     margin-top: -140px;
   }
-  #videosection .continue-watching{
+
+  /* CONTINUE WATCHING SECTION */
+  .continue-watching {
     font-size: 38px;
     font-family: 'Noto Sans', sans-serif;
     color:white;
@@ -278,7 +279,6 @@
     padding-top: 20px;
     margin-left: 50px;
   }
-        /* continue watching section */
   .row-1 {
     width:100%;
     font-size: 0;
@@ -291,7 +291,9 @@
     height: 300px;
   }
 
-  .video1 img.resize{
+  .video1 img.resize,
+  .video2 img.resize,
+  .video3 img.resize {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -301,17 +303,18 @@
     background-color: rgba(170,170,170,0.6);
     position: relative;
   }
-  .video1 .overlay-1 {
+  .video1 .overlay-1,
+  .video2 .overlay-2,
+  .video3 .overlay-3 {
     background: rgba(0,0,0,.6);
     color:grey;
     opacity:0;
-    /* padding:50px; */
     height:300px;
-    /*width:3;*/
     margin-top: -300px;
-      /* position: absolute; */
   }
-  .video1:hover .overlay-1 {
+  .video1:hover .overlay-1,
+  .video2:hover .overlay-2,
+  .video3:hover .overlay-3 {
     opacity: 1;
     border: 3px solid white;
     width:405px;
@@ -319,7 +322,9 @@
     height:294px;
     position: absolute;
   }
-  .video1:hover .overlay-1 h1 {
+  .video1:hover .overlay-1 h1,
+  .video2:hover .overlay-2 h1,
+  .video3:hover .overlay-3 h1 {
     font-size: 40px;
     visibility: visible;
     color: white;
@@ -345,7 +350,17 @@
     margin-top: 25px;
     margin-left:170px;
   }
-  .video1:hover .overlay-1 i:hover {
+  .video2:hover .overlay-2 i,
+  .video3:hover .overlay-3 i {
+    font-size: 70px;
+    visibility: visible;
+    color: white;
+    margin-top: 70px;
+    margin-left:170px;
+  }
+  .video1:hover .overlay-1 i:hover,
+  .video2:hover .overlay-2 i:hover,
+  .video3:hover .overlay-3 i:hover {
     color:red;
     transition: .5s ease;
     cursor: pointer;
@@ -358,52 +373,8 @@
     margin-left: 0px;
     background: -webkit-linear-gradient(left, rgba(255,26,0,0.32) 0%,rgba(255,26,0,0.32) 1%,rgba(255,26,0,1) 100%);
   }
-   .video2 img.resize {ize: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 300px;
-    width: 100%;
-    background-color: rgba(170,170,170,0.6);
-    position: relative;
-  }
-  .video2 .overlay-2 {
-    background: rgba(0,0,0,.6);
-    color:grey;
-    opacity:0;
-    height:300px;
-    margin-top: -300px;
-  }
-  .video2:hover .overlay-2 {
-    opacity: 1;
-    border: 3px solid white;
-    width:405px;
-    transition: .4s ease;
-    height:294px;
-    position: absolute;
-  }
-  .video2:hover .overlay-2 h1 {
-    font-size: 40px;
-    visibility: visible;
-    color: white;
-    text-align: left;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 100;
-    padding: 10px;
-  }
-  .video2:hover .overlay-2 i {
-    font-size: 70px;
-    visibility: visible;
-    color: white;
-    margin-top: 70px;
-    margin-left:170px;
-  }
-  .video2:hover .overlay-2 i:hover {
-    color:red;
-    transition: .5s ease;
-    cursor: pointer;
-  }
-  .video2:hover .overlay-2 .progress-2 {
+  .video2:hover .overlay-2 .progress-2,
+  .video3:hover .overlay-3 .progress-3 {
     height:20px;
     width:300px;
     background-color: red;
@@ -411,64 +382,9 @@
     margin-left: 0px;
     background: -webkit-linear-gradient(left, rgba(255,26,0,0.32) 0%,rgba(255,26,0,0.32) 1%,rgba(255,26,0,1) 100%);
   }
-  .video3 img.resize {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 300px;
-    width: 100%;
-    background-color: rgba(170,170,170,0.6);
-    position: relative;
-  }
-  .video3 .overlay-3 {
-    background: rgba(0,0,0,.6);
-    color:grey;
-    opacity:0;
-    height:300px;
-    width:-300px;
-    margin-top: -300px;
-  }
-  .video3:hover .overlay-3 {
-    opacity: 1;
-    border: 3px solid white;
-    width:405px;
-    transition: .4s ease;
-    height:294px;
-    position: absolute;
-  }
-  .video3:hover .overlay-3 h1 {
-    font-size: 40px;
-    visibility: visible;
-    color: white;
-    text-align: left;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 100;
-    padding: 10px;
-  }
-  .video3:hover .overlay-3 i {
-    font-size: 70px;
-    visibility: visible;
-    color: white;
-    margin-top: 70px;
-    margin-left:170px;
-  }
-  .video3:hover .overlay-3 i:hover {
-    color:red;
-    transition: .5s ease;
-    cursor: pointer;
-  }
-  .video3:hover .overlay-3 .progress-3 {
-    height:20px;
-    width:200px;
-    background-color: red;
-    margin-top: 74px;
-    margin-left: 0px;
-    background: -webkit-linear-gradient(left, rgba(255,26,0,0.32) 0%,rgba(255,26,0,0.32) 1%,rgba(255,26,0,1) 100%);
-  }
 
-        /* TOP PICKS SECTIONS  */
-  #videosection .top-picks {
+    /* TOP PICKS SECTIONS  */
+  .top-picks {
     font-size: 38px;
     font-family: 'Noto Sans', sans-serif;
     color:white;
@@ -489,24 +405,25 @@
     margin-right: 14px;
     height: 380px;
   }
-  .video5 img.resize {
-    /* background:
-    url('avatar.jpg'); */
+  .video5 img.resize,
+  .video6 img.resize,
+  .video7 img.resize,
+  .video8 img.resize,
+  .video9 img.resize,
+  .video10 img.resize {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /* object-fit: cover; */
     height: 380px;
     width: 100%;
     background-color: rgba(170,170,170,0.6);
-    /* position: relative; */
   }
   .video5:hover img.resize {
-    /* -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; */
+    background-size: cover;
     height: 410px;
     width: 112%;
     background-color: rgba(170,170,170,0.6);
@@ -514,7 +431,28 @@
     margin-top: -13px;
     margin-left: -10px;
   }
-   .video5 .overlay-5 {
+  .video6:hover img.resize,
+  .video7:hover img.resize,
+  .video8:hover img.resize,
+  .video9:hover img.resize,
+  .video10:hover img.resize {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 410px;
+    width: 114%;
+    background-color: rgba(170,170,170,0.6);
+    position: relative;
+    margin-top: -13px;
+    margin-left: -14px;
+  }
+   .video5 .overlay-5,
+   .video6 .overlay-6,
+   .video7 .overlay-7,
+   .video8 .overlay-8,
+   .video9 .overlay-9,
+   .video10 .overlay-10 {
     background:rgba(0,0,0,.6);
     color:grey;
     opacity:0;
@@ -531,17 +469,39 @@
     margin-top: -410px;
     margin-left: -10px;
   }
-  .video5:hover .overlay-5 h1 {
+  .video6:hover .overlay-6,
+  .video7:hover .overlay-7,
+  .video8:hover .overlay-8,
+  .video9:hover .overlay-9,
+  .video10:hover .overlay-10 {
+    opacity: 1;
+    height:410px;
+    width:226px;
+    transition: 0s ease-in-out;
+    position: absolute;
+    margin-top: -410px;
+    margin-left: -14px;
+  }
+  .video5:hover .overlay-5 h1,
+  .video6:hover .overlay-6 h1,
+  .video7:hover .overlay-7 h1,
+  .video8:hover .overlay-8 h1,
+  .video9:hover .overlay-9 h1,
+  .video10:hover .overlay-10 h1 {
     font-size: 30px;
     visibility: visible;
     color: white;
-    text-align: left;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 100;
     padding-top: 20px;
     text-align: center;
   }
-  .video5:hover .overlay-5 h4 {
+  .video5:hover .overlay-5 h4,
+  .video6:hover .overlay-6 h4,
+  .video7:hover .overlay-7 h4,
+  .video8:hover .overlay-8 h4,
+  .video9:hover .overlay-9 h4,
+  .video10:hover .overlay-10 h4 {
     font-size: 16px;
     visibility: visible;
     color: white;
@@ -552,7 +512,11 @@
     font-weight: 100;
     text-align: center;
   }
-  .video5:hover .overlay-5 .button1 {
+  .video5:hover .overlay-5 .button1,
+  .video6:hover .overlay-6 .button1,
+  .video7:hover .overlay-7 .button1,
+  .video9:hover .overlay-9 .button1,
+  .video10:hover .overlay-10 .button1 {
     font-size: 26px;
     margin-top: 220px;
     border: none;
@@ -565,217 +529,6 @@
     font-weight: 400;
     color: black;
     margin-left: 45px;
-  }
-  .video5:hover .overlay-5 .button1:hover {
-    background: red;
-    transition: .5s ease;
-    cursor: pointer;
-  }
-  .video6 img.resize {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 380px;
-    width: 100%;
-    background-color: rgba(170,170,170,0.6);
-    position: relative;
-  }
-  .video6:hover img.resize {
-    height: 410px;
-    width: 114%;
-    background-color: rgba(170,170,170,0.6);
-    position: relative;
-    margin-top: -13px;
-    margin-left: -14px;
-  }
-   .video6 .overlay-6 {
-     background:rgba(0,0,0,.6);
-     color:grey;
-     opacity:0;
-     height:410px;
-     margin-top: -403px;
-     position: relative;
-  }
-  .video6:hover .overlay-6 {
-    opacity: 1;
-    height:410px;
-    width:226px;
-    transition: 0s ease-in-out;
-    position: absolute;
-    margin-top: -410px;
-    margin-left: -14px;
-  }
-  .video6:hover .overlay-6 h1 {
-    font-size: 30px;
-    visibility: visible;
-    color: white;
-    text-align: left;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 100;
-    padding-top: 20px;
-    text-align: center;
-  }
-  .video6:hover .overlay-6 h4 {
-    font-size: 16px;
-    visibility: visible;
-    color: white;
-    font-style: italic;
-    text-align: left;
-    margin-top: 15px;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 100;
-    text-align: center;
-  }
-  .video6:hover .overlay-6 .button1 {
-    font-size: 26px;
-    margin-top: 220px;
-    border: none;
-    border-radius: 5px;
-    width:90px;
-    background: white;
-    font-family: 'Noto Sans', sans-serif;
-    padding: 20px;
-    text-align: center;
-    font-weight: 400;
-    color: black;
-    margin-left: 45px;
-  }
-  .video6:hover .overlay-6 .button1:hover {
-    background: red;
-    transition: .5s ease;
-    cursor: pointer;
-  }
-  .video7 img.resize {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 380px;
-    width: 100%;
-    background-color: rgba(170,170,170,0.6);
-    position: relative;
-  }
-  .video7:hover img.resize {
-    height: 410px;
-    width: 114%;
-    background-color: rgba(170,170,170,0.6);
-    position: relative;
-    margin-top: -13px;
-    margin-left: -14px;
-  }
-   .video7 .overlay-7 {
-     background:rgba(0,0,0,.6);
-     color:grey;
-     opacity:0;
-     height:410px;
-     margin-top: -403px;
-     position: relative;
-  }
-  .video7:hover .overlay-7 {
-    opacity: 1;
-    height:410px;
-    width:226px;
-    transition: 0s ease-in-out;
-    position: absolute;
-    margin-top: -410px;
-    margin-left: -14px;
-  }
-  .video7:hover .overlay-7 h1 {
-    font-size: 30px;
-    visibility: visible;
-    color: white;
-    text-align: left;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 100;
-    padding-top: 20px;
-    text-align: center;
-  }
-  .video7:hover .overlay-7 h4 {
-    font-size: 16px;
-    visibility: visible;
-    color: white;
-    font-style: italic;
-    text-align: left;
-    margin-top: 15px;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 100;
-    text-align: center;
-  }
-  .video7:hover .overlay-7 .button1 {
-    font-size: 26px;
-    margin-top: 220px;
-    border: none;
-    border-radius: 5px;
-    width:90px;
-    background: white;
-    font-family: 'Noto Sans', sans-serif;
-    padding: 20px;
-    text-align: center;
-    font-weight: 400;
-    color: black;
-    margin-left: 45px;
-  }
-  .video7:hover .overlay-7 .button1:hover {
-    background: red;
-    transition: .5s ease;
-    cursor: pointer;
-  }
-  .video8 img.resize {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 380px;
-    width: 100%;
-    background-color: rgba(170,170,170,0.6);
-    position: relative;
-  }
-  .video8:hover img.resize {
-    height: 410px;
-    width: 114%;
-    background-color: rgba(170,170,170,0.6);
-    position: relative;
-    margin-top: -13px;
-    margin-left: -14px;
-  }
-  .video8 .overlay-8 {
-    background:rgba(0,0,0,.6);
-     color:grey;
-     opacity:0;
-     height:410px;
-     margin-top: -403px;
-     position: relative;
-  }
-  .video8:hover .overlay-8 {
-    opacity: 1;
-    height:410px;
-    width:226px;
-    transition: 0s ease-in-out;
-    position: absolute;
-    margin-top: -410px;
-    margin-left: -14px;
-  }
-  .video8:hover .overlay-8 h1 {
-    font-size: 30px;
-    visibility: visible;
-    color: white;
-    text-align: left;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 100;
-    padding-top: 20px;
-    text-align: center;
-  }
-  .video8:hover .overlay-8 h4 {
-    font-size: 16px;
-    visibility: visible;
-    color: white;
-    font-style: italic;
-    text-align: left;
-    margin-top: 15px;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 100;
-    text-align: center;
   }
   .video8:hover .overlay-8 .button1 {
     font-size: 26px;
@@ -791,158 +544,572 @@
     color: black;
     margin-left: 45px;
   }
-  .video8:hover .overlay-8 .button1:hover {
-    background: red;
-    transition: .5s ease;
-    cursor: pointer;
-  }
-  .video9 img.resize {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 380px;
-    width: 100%;
-    background-color: rgba(170,170,170,0.6);
-    position: relative;
-  }
-  .video9:hover img.resize {
-    height: 410px;
-    width: 114%;
-    background-color: rgba(170,170,170,0.6);
-    position: relative;
-    margin-top: -13px;
-    margin-left: -14px;
-  }
-  .video9 .overlay-9 {
-    background:rgba(0,0,0,.6);
-     color:grey;
-     opacity:0;
-     height:410px;
-     margin-top: -403px;
-     position: relative;
-  }
-  .video9:hover .overlay-9 {
-    opacity: 1;
-    height:410px;
-    width:226px;
-    transition: 0s ease-in-out;
-    position: absolute;
-    margin-top: -410px;
-    margin-left: -14px;
-  }
-  .video9:hover .overlay-9 h1 {
-    font-size: 30px;
-    visibility: visible;
-    color: white;
-    text-align: left;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 100;
-    padding-top: 20px;
-    text-align: center;
-  }
-  .video9:hover .overlay-9 h4 {
-    font-size: 16px;
-    visibility: visible;
-    color: white;
-    font-style: italic;
-    text-align: left;
-    margin-top: 15px;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 100;
-    text-align: center;
-  }
-  .video9:hover .overlay-9 .button1 {
-    font-size: 26px;
-    margin-top: 220px;
-    border: none;
-    border-radius: 5px;
-    width:90px;
-    background: white;
-    font-family: 'Noto Sans', sans-serif;
-    padding: 20px;
-    text-align: center;
-    font-weight: 400;
-    color: black;
-    margin-left: 45px;
-  }
-  .video9:hover .overlay-9 .button1:hover {
-    background: red;
-    transition: .5s ease;
-    cursor: pointer;
-  }
-  .video10 img.resize {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 380px;
-    width: 100%;
-    background-color: rgba(170,170,170,0.6);
-    position: relative;
-  }
-  .video10:hover img.resize {
-    height: 410px;
-    width: 114%;
-    background-color: rgba(170,170,170,0.6);
-    position: relative;
-    margin-top: -13px;
-    margin-left: -14px;
-  }
-  .video10 .overlay-10 {
-    background:rgba(0,0,0,.6);
-     color:grey;
-     opacity:0;
-     height:410px;
-     margin-top: -403px;
-     position: relative;
-  }
-  .video10:hover .overlay-10 {
-    opacity: 1;
-    height:410px;
-    width:226px;
-    transition: 0s ease-in-out;
-    position: absolute;
-    margin-top: -410px;
-    margin-left: -14px;
-  }
-  .video10:hover .overlay-10 h1 {
-    font-size: 30px;
-    visibility: visible;
-    color: white;
-    text-align: left;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 100;
-    padding-top: 20px;
-    text-align: center;
-  }
-  .video10:hover .overlay-10 h4 {
-    font-size: 16px;
-    visibility: visible;
-    color: white;
-    font-style: italic;
-    text-align: left;
-    margin-top: 15px;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 100;
-    text-align: center;
-  }
-  .video10:hover .overlay-10 .button1 {
-    font-size: 26px;
-    margin-top: 220px;
-    border: none;
-    border-radius: 5px;
-    width:90px;
-    background: white;
-    font-family: 'Noto Sans', sans-serif;
-    padding: 20px;
-    text-align: center;
-    font-weight: 400;
-    color: black;
-    margin-left: 45px;
-  }
+  .video5:hover .overlay-5 .button1:hover,
+  .video6:hover .overlay-6 .button1:hover,
+  .video7:hover .overlay-7 .button1:hover,
+  .video8:hover .overlay-8 .button1:hover,
+  .video9:hover .overlay-9 .button1:hover,
   .video10:hover .overlay-10 .button1:hover {
     background: red;
     transition: .5s ease;
     cursor: pointer;
+  }
+
+  /* MEDIA QUERIES */
+
+  @media(min-width:1360px) and (max-width:1370px) {
+    #large-img {
+      background:-webkit-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url(aliencovenant.jpeg);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 345px 0px;
+      width: 85%;
+      height: 0px;
+      background-position: center;
+      margin-left: 350px;
+      border: 1px solid black;
+    }
+    /* CONTINUE WATCHING SECTION */
+    .video1:hover .overlay-1,
+    .video2:hover .overlay-2,
+    .video3:hover .overlay-3 {
+      opacity: 1;
+      border: 3px solid white;
+      width:432px;
+      transition: .4s ease;
+      height:294px;
+      position: absolute;
+    }
+    .video2:hover .overlay-2 .progress-2 {
+      height:20px;
+      width:350px;
+      background-color: red;
+      margin-top: 74px;
+      margin-left: 0px;
+      background: -webkit-linear-gradient(left, rgba(255,26,0,0.32) 0%,rgba(255,26,0,0.32) 1%,rgba(255,26,0,1) 100%);
+    }
+      /* TOP PICKS SECTIONS  */
+    .row-2 .videoboxes {
+      width:212px;
+      margin-right: 14px;
+      height: 380px;
+    }
+    .video5:hover .overlay-5 {
+      opacity: 1;
+      height:410px;
+      width:236px;
+      transition: 0s ease-in-out;
+      position: absolute;
+      margin-top: -410px;
+      margin-left: -10px;
+    }
+    .video6:hover .overlay-6,
+    .video7:hover .overlay-7,
+    .video8:hover .overlay-8,
+    .video9:hover .overlay-9,
+    .video10:hover .overlay-10 {
+      opacity: 1;
+      height:410px;
+      width:243px;
+      transition: 0s ease-in-out;
+      position: absolute;
+      margin-top: -410px;
+      margin-left: -14px;
+    }
+  }
+
+  @media(min-width:1440px) and (max-width:1450px) {
+    #large-img {
+      background:-webkit-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url(aliencovenant.jpeg);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 345px 0px;
+      width: 85%;
+      height: 0px;
+      background-position: center;
+      margin-left: 350px;
+      border: 1px solid black;
+    }
+    /* CONTINUE WATCHING SECTION */
+    .video1:hover .overlay-1,
+    .video2:hover .overlay-2,
+    .video3:hover .overlay-3 {
+      opacity: 1;
+      border: 3px solid white;
+      width:458px;
+      transition: .4s ease;
+      height:294px;
+      position: absolute;
+    }
+    .video1:hover .overlay-1 i {
+      font-size: 70px;
+      visibility: visible;
+      color: white;
+      margin-top: 25px;
+      margin-left:190px;
+    }
+    .video2:hover .overlay-2 i,
+    .video3:hover .overlay-3 i {
+      font-size: 70px;
+      visibility: visible;
+      color: white;
+      margin-top: 70px;
+      margin-left:190px;
+    }
+    .video2:hover .overlay-2 .progress-2 {
+      height:20px;
+      width:400px;
+      background-color: red;
+      margin-top: 74px;
+      margin-left: 0px;
+      background: -webkit-linear-gradient(left, rgba(255,26,0,0.32) 0%,rgba(255,26,0,0.32) 1%,rgba(255,26,0,1) 100%);
+    }
+      /* TOP PICKS SECTIONS  */
+    .row-2 .videoboxes {
+      width:223px;
+      margin-right: 14px;
+      height: 380px;
+    }
+    .video5:hover .overlay-5 {
+      opacity: 1;
+      height:410px;
+      width:250px;
+      transition: 0s ease-in-out;
+      position: absolute;
+      margin-top: -410px;
+      margin-left: -10px;
+    }
+    .video6:hover .overlay-6,
+    .video7:hover .overlay-7,
+    .video8:hover .overlay-8,
+    .video9:hover .overlay-9,
+    .video10:hover .overlay-10 {
+      opacity: 1;
+      height:410px;
+      width:254px;
+      transition: 0s ease-in-out;
+      position: absolute;
+      margin-top: -410px;
+      margin-left: -14px;
+    }
+    .video5:hover .overlay-5 .button1,
+    .video6:hover .overlay-6 .button1,
+    .video7:hover .overlay-7 .button1,
+    .video9:hover .overlay-9 .button1,
+    .video10:hover .overlay-10 .button1 {
+      font-size: 26px;
+      margin-top: 220px;
+      border: none;
+      border-radius: 5px;
+      width:90px;
+      background: white;
+      font-family: 'Noto Sans', sans-serif;
+      padding: 20px;
+      text-align: center;
+      font-weight: 400;
+      color: black;
+      margin-left: 60px;
+    }
+    .video8:hover .overlay-8 .button1 {
+      font-size: 26px;
+      margin-top: 190px;
+      border: none;
+      border-radius: 5px;
+      width:90px;
+      background: white;
+      font-family: 'Noto Sans', sans-serif;
+      padding: 20px;
+      text-align: center;
+      font-weight: 400;
+      color: black;
+      margin-left: 60px;
+    }
+  }
+  @media(min-width:1600px) and (max-width:1610px) {
+
+    header .right-menu {
+      float: right;
+      color:red;
+      padding:42px;
+      margin-left:180px;
+      /* display: inline-flex; */
+    }
+    #large-img {
+      background:-webkit-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url(aliencovenant.jpeg);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 345px 0px;
+      width: 85%;
+      height: 0px;
+      background-position: center;
+      margin-left: 350px;
+      border: 1px solid black;
+    }
+
+    /* CONTINUE WATCHING SECTION */
+
+    .row-1 .watching {
+      width:32.2%;
+      margin-right: 14px;
+      height: 300px;
+    }
+    .video1:hover .overlay-1,
+    .video2:hover .overlay-2,
+    .video3:hover .overlay-3 {
+      opacity: 1;
+      border: 3px solid white;
+      width:510px;
+      transition: .4s ease;
+      height:294px;
+      position: absolute;
+    }
+    .video1:hover .overlay-1 i {
+      font-size: 70px;
+      visibility: visible;
+      color: white;
+      margin-top: 25px;
+      margin-left:220px;
+    }
+    .video2:hover .overlay-2 i,
+    .video3:hover .overlay-3 i {
+      font-size: 70px;
+      visibility: visible;
+      color: white;
+      margin-top: 70px;
+      margin-left:220px;
+    }
+    .video2:hover .overlay-2 .progress-2 {
+      height:20px;
+      width:400px;
+      background-color: red;
+      margin-top: 74px;
+      margin-left: 0px;
+      background: -webkit-linear-gradient(left, rgba(255,26,0,0.32) 0%,rgba(255,26,0,0.32) 1%,rgba(255,26,0,1) 100%);
+    }
+      /* TOP PICKS SECTIONS  */
+    .row-2 .videoboxes {
+      width:251px;
+      margin-right: 14px;
+      height: 380px;
+    }
+    .video5:hover .overlay-5 {
+      opacity: 1;
+      height:410px;
+      width:282px;
+      transition: 0s ease-in-out;
+      position: absolute;
+      margin-top: -410px;
+      margin-left: -10px;
+    }
+    .video6:hover .overlay-6,
+    .video7:hover .overlay-7,
+    .video8:hover .overlay-8,
+    .video9:hover .overlay-9,
+    .video10:hover .overlay-10 {
+      opacity: 1;
+      height:410px;
+      width:286px;
+      transition: 0s ease-in-out;
+      position: absolute;
+      margin-top: -410px;
+      margin-left: -14px;
+    }
+    .video5:hover .overlay-5 .button1,
+    .video6:hover .overlay-6 .button1,
+    .video7:hover .overlay-7 .button1,
+    .video9:hover .overlay-9 .button1,
+    .video10:hover .overlay-10 .button1 {
+      font-size: 26px;
+      margin-top: 220px;
+      border: none;
+      border-radius: 5px;
+      width:90px;
+      background: white;
+      font-family: 'Noto Sans', sans-serif;
+      padding: 20px;
+      text-align: center;
+      font-weight: 400;
+      color: black;
+      margin-left: 75px;
+    }
+    .video8:hover .overlay-8 .button1 {
+      font-size: 26px;
+      margin-top: 190px;
+      border: none;
+      border-radius: 5px;
+      width:90px;
+      background: white;
+      font-family: 'Noto Sans', sans-serif;
+      padding: 20px;
+      text-align: center;
+      font-weight: 400;
+      color: black;
+      margin-left: 75px;
+    }
+  }
+
+  /* 22" desktop */
+  @media(min-width:1680px) and (max-width:1690px) {
+    header .right-menu {
+      float: right;
+      color:red;
+      padding:42px;
+      margin-left:240px;
+    }
+    #large-img {
+      background:-webkit-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url(aliencovenant.jpeg);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 345px 0px;
+      width: 80%;
+      height: 0px;
+      background-position: center;
+      margin-left: 350px;
+      border: 1px solid black;
+    }
+    .row-1 {
+      width:100%;
+      font-size: 0;
+      display: inline-flex;
+      margin-left: 19px;
+    }
+    .video1:hover .overlay-1,
+    .video2:hover .overlay-2,
+    .video3:hover .overlay-3 {
+      opacity: 1;
+      border: 3px solid white;
+      width:534px;
+      transition: .4s ease;
+      height:294px;
+      position: absolute;
+    }
+    .video1:hover .overlay-1 i {
+      font-size: 70px;
+      visibility: visible;
+      color: white;
+      margin-top: 25px;
+      margin-left:220px;
+    }
+    .video2:hover .overlay-2 i,
+    .video3:hover .overlay-3 i {
+      font-size: 70px;
+      visibility: visible;
+      color: white;
+      margin-top: 70px;
+      margin-left:220px;
+    }
+    .video2:hover .overlay-2 .progress-2 {
+      height:20px;
+      width:500px;
+      background-color: red;
+      margin-top: 74px;
+      margin-left: 0px;
+      background: -webkit-linear-gradient(left, rgba(255,26,0,0.32) 0%,rgba(255,26,0,0.32) 1%,rgba(255,26,0,1) 100%);
+    }
+    .row-2 {
+      width:100%;
+      font-size: 0;
+      display: inline-flex;
+      margin-left: 21px;
+    }
+    .row-2 .videoboxes {
+      width:262px;
+      margin-right: 14px;
+      height: 380px;
+    }
+    .video5:hover .overlay-5 {
+      opacity: 1;
+      height:410px;
+      width:292px;
+      transition: 0s ease-in-out;
+      position: absolute;
+      margin-top: -410px;
+      margin-left: -10px;
+    }
+    .video6:hover .overlay-6,
+    .video7:hover .overlay-7,
+    .video8:hover .overlay-8,
+    .video9:hover .overlay-9,
+    .video10:hover .overlay-10 {
+      opacity: 1;
+      height:410px;
+      width:300px;
+      transition: 0s ease-in-out;
+      position: absolute;
+      margin-top: -410px;
+      margin-left: -14px;
+    }
+    .video5:hover .overlay-5 .button1,
+    .video6:hover .overlay-6 .button1,
+    .video7:hover .overlay-7 .button1,
+    .video9:hover .overlay-9 .button1,
+    .video10:hover .overlay-10 .button1 {
+      font-size: 26px;
+      margin-top: 220px;
+      border: none;
+      border-radius: 5px;
+      width:90px;
+      background: white;
+      font-family: 'Noto Sans', sans-serif;
+      padding: 20px;
+      text-align: center;
+      font-weight: 400;
+      color: black;
+      margin-left: 85px;
+    }
+    .video8:hover .overlay-8 .button1 {
+      font-size: 26px;
+      margin-top: 190px;
+      border: none;
+      border-radius: 5px;
+      width:90px;
+      background: white;
+      font-family: 'Noto Sans', sans-serif;
+      padding: 20px;
+      text-align: center;
+      font-weight: 400;
+      color: black;
+      margin-left: 85px;
+    }
+  }
+  @media(min-width:1920px) and (max-width:1930px) {
+    header .right-menu {
+      float: right;
+      color:red;
+      padding:42px;
+      margin-left:480px;
+    }
+    #large-img {
+      background:-webkit-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url(aliencovenant.jpeg);
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding: 345px 0px;
+      width: 85%;
+      height: 0px;
+      background-position: center;
+      margin-left: 350px;
+      border: 1px solid black;
+    }
+    .row-1 {
+      width:100%;
+      font-size: 0;
+      display: inline-flex;
+      margin-left: 25px;
+    }
+    .video1:hover .overlay-1,
+    .video2:hover .overlay-2,
+    .video3:hover .overlay-3 {
+      opacity: 1;
+      border: 3px solid white;
+      width:610px;
+      transition: .4s ease;
+      height:294px;
+      position: absolute;
+    }
+    .video1:hover .overlay-1 i {
+      font-size: 70px;
+      visibility: visible;
+      color: white;
+      margin-top: 25px;
+      margin-left:260px;
+    }
+    .video2:hover .overlay-2 i,
+    .video3:hover .overlay-3 i {
+      font-size: 70px;
+      visibility: visible;
+      color: white;
+      margin-top: 70px;
+      margin-left:260px;
+    }
+    .video2:hover .overlay-2 .progress-2 {
+      height:20px;
+      width:500px;
+      background-color: red;
+      margin-top: 74px;
+      margin-left: 0px;
+      background: -webkit-linear-gradient(left, rgba(255,26,0,0.32) 0%,rgba(255,26,0,0.32) 1%,rgba(255,26,0,1) 100%);
+    }
+    .video3:hover .overlay-3 .progress-3 {
+      height:20px;
+      width:300px;
+      background-color: red;
+      margin-top: 74px;
+      margin-left: 0px;
+      background: -webkit-linear-gradient(left, rgba(255,26,0,0.32) 0%,rgba(255,26,0,0.32) 1%,rgba(255,26,0,1) 100%);
+    }
+    .row-2 {
+      width:100%;
+      font-size: 0;
+      display: inline-flex;
+      margin-left: 30px;
+    }
+    .row-2 .videoboxes {
+      width:300px;
+      margin-right: 14px;
+      height: 380px;
+    }
+    .video5:hover .overlay-5 {
+      opacity: 1;
+      height:410px;
+      width:342px;
+      transition: 0s ease-in-out;
+      position: absolute;
+      margin-top: -410px;
+      margin-left: -10px;
+    }
+    .video6:hover .overlay-6,
+    .video7:hover .overlay-7,
+    .video8:hover .overlay-8,
+    .video9:hover .overlay-9,
+    .video10:hover .overlay-10 {
+      opacity: 1;
+      height:410px;
+      width:342px;
+      transition: 0s ease-in-out;
+      position: absolute;
+      margin-top: -410px;
+      margin-left: -14px;
+    }
+    .video5:hover .overlay-5 .button1,
+    .video6:hover .overlay-6 .button1,
+    .video7:hover .overlay-7 .button1,
+    .video9:hover .overlay-9 .button1,
+    .video10:hover .overlay-10 .button1 {
+      font-size: 26px;
+      margin-top: 220px;
+      border: none;
+      border-radius: 5px;
+      width:90px;
+      background: white;
+      font-family: 'Noto Sans', sans-serif;
+      padding: 20px;
+      text-align: center;
+      font-weight: 400;
+      color: black;
+      margin-left: 105px;
+    }
+    .video8:hover .overlay-8 .button1 {
+      font-size: 26px;
+      margin-top: 215px;
+      border: none;
+      border-radius: 5px;
+      width:90px;
+      background: white;
+      font-family: 'Noto Sans', sans-serif;
+      padding: 20px;
+      text-align: center;
+      font-weight: 400;
+      color: black;
+      margin-left: 105px;
+    }
   }

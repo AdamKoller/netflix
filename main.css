@@ -1,4 +1,4 @@
-header {
+  header {
     background: black;
     text-decoration: none;
     height:60px;
@@ -146,7 +146,7 @@ header {
     margin-bottom: 30px;
     font-weight: 100;
     font-family: 'Pathway Gothic One', sans-serif;
-    margin-left: 8px;
+    margin-left: 214px;
     display: inline-block;
     border: 2px solid grey;
     position: absolute;
@@ -159,7 +159,7 @@ header {
     margin-right: 2px;
   }
   #large-img .left-box .stars .box-1 {
-    margin-left: 70px;
+    margin-left: 170px;
     font-size: 24px;
     font-weight: bold;
     font-family: 'Pathway Gothic One', sans-serif;
@@ -170,6 +170,7 @@ header {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    margin-right: 22px;
   }
   #large-img .left-box .stars .box-1 .def {
     font-size: 21px;
@@ -200,6 +201,7 @@ header {
     margin-bottom: 50px;
     letter-spacing: 5px;
     position: relative;
+    display: flex;
   }
   #large-img .left-box .stars .star-1,
   .star-2,
@@ -209,7 +211,7 @@ header {
     color:red;
   }
   #large-img .left-box .stars .star-6{
-    margin-left: -41px;
+    margin-left: -30px;
   }
   #large-img .left-box .description {
     color:white;
@@ -1112,7 +1114,9 @@ header {
       color: black;
       margin-left: 105px;
     }
-     @media(min-width:360px) and (max-width:370px) {
+  }
+
+  @media(min-width:360px) and (max-width:370px) {
     header {
       background: black;
       text-decoration: none;
@@ -1669,5 +1673,5 @@ header {
       background: red;
       transition: .5s ease;
       cursor: pointer;
-    } 
+    }
   }

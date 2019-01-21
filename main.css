@@ -1,4 +1,4 @@
-   header {
+     header {
     background: black;
     text-decoration: none;
     height:60px;
@@ -1347,7 +1347,7 @@
     #large-img .left-box .buttons .button1 {
       border: none;
       border-radius: 5px;
-      width:90px;
+      width:119px;
       background:white;
       font-family: 'Noto Sans', sans-serif;
       padding:20px;
@@ -1365,7 +1365,7 @@
     #large-img .left-box .buttons .button2 {
       border: none;
       border-radius: 5px;
-      width:90px;
+      width:119px;
       background:white;
       font-family: 'Noto Sans', sans-serif;
       padding:20px;
@@ -1401,7 +1401,7 @@
       margin-bottom: 20px;
       padding-top: 20px;
       margin-left: 50px;
-      width: 346px;
+      width: 370px;
     }
     .row-1 {
       width:217%;
@@ -1440,9 +1440,9 @@
     .video3:hover .overlay-3 {
       opacity: 1;
       border: 3px solid white;
-      width:242px;
-      transition: .4s ease;
-      height:250px;
+      width:246px;
+      transition: .5s ease;
+      height:254px;
       position: absolute;
       margin-top: -254px;
     }
@@ -1493,7 +1493,7 @@
       height:20px;
       width:100px;
       background-color: red;
-      margin-top: 72px;
+      margin-top: 70px;
       margin-left: 0px;
       background: -webkit-linear-gradient(left, rgba(255,26,0,0.32) 0%,rgba(255,26,0,0.32) 1%,rgba(255,26,0,1) 100%);
     }
@@ -1501,7 +1501,7 @@
       height:20px;
       width:130px;
       background-color: red;
-      margin-top: 58px;
+      margin-top: 56px;
       margin-left: 0px;
       background: -webkit-linear-gradient(left, rgba(255,26,0,0.32) 0%,rgba(255,26,0,0.32) 1%,rgba(255,26,0,1) 100%);
     }
@@ -1509,7 +1509,7 @@
       height:20px;
       width:190px;
       background-color: red;
-      margin-top: 58px;
+      margin-top: 56px;
       margin-left: 0px;
       background: -webkit-linear-gradient(left, rgba(255,26,0,0.32) 0%,rgba(255,26,0,0.32) 1%,rgba(255,26,0,1) 100%);
     }
@@ -1522,7 +1522,7 @@
       padding: 10px;
       font-weight: lighter;
       margin-bottom: 28px;
-      padding-top: 20px;
+      padding-top: 0px;
       margin-left: 50px;
     }
     .row-2 {
@@ -1555,12 +1555,12 @@
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      height: 410px;
-      width: 112%;
+      height: 380px;
+      width: 100%;
       background-color: rgba(170,170,170,0.6);
       position: relative;
-      margin-top: -13px;
-      margin-left: -10px;
+      margin-top: 0px;
+      margin-left: 0px;
     }
     .video6:hover img.resize,
     .video7:hover img.resize,
@@ -1571,12 +1571,12 @@
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      height: 410px;
-      width: 114%;
+      height: 380px;
+      width: 100%;
       background-color: rgba(170,170,170,0.6);
       position: relative;
-      margin-top: -13px;
-      margin-left: -14px;
+      margin-top: 0px;
+      margin-left: 0px;
     }
      .video5 .overlay-5,
      .video6 .overlay-6,
@@ -1593,12 +1593,12 @@
     }
     .video5:hover .overlay-5 {
       opacity: 1;
-      height:410px;
-      width:222px;
-      transition: 0s ease-in-out;
+      height:380px;
+      width:69%;
+      transition: 0.5s ease-in-out;
       position: absolute;
-      margin-top: -410px;
-      margin-left: -10px;
+      margin-top: -380px;
+      margin-left: 0px;
     }
     .video6:hover .overlay-6,
     .video7:hover .overlay-7,
@@ -1606,12 +1606,12 @@
     .video9:hover .overlay-9,
     .video10:hover .overlay-10 {
       opacity: 1;
-      height:410px;
-      width:226px;
-      transition: 0s ease-in-out;
+      height:380px;
+      width:69%;
+      transition: 0.5s ease-in-out;
       position: absolute;
-      margin-top: -410px;
-      margin-left: -14px;
+      margin-top: -380px;
+      margin-left: 0px;
     }
     .video5:hover .overlay-5 h1,
     .video6:hover .overlay-6 h1,
@@ -1659,7 +1659,7 @@
       text-align: center;
       font-weight: 400;
       color: black;
-      margin-left: 45px;
+      margin-left: 80px;
     }
     .video8:hover .overlay-8 .button1 {
       font-size: 26px;
@@ -1673,7 +1673,7 @@
       text-align: center;
       font-weight: 400;
       color: black;
-      margin-left: 45px;
+      margin-left: 80px;
     }
     .video5:hover .overlay-5 .button1:hover,
     .video6:hover .overlay-6 .button1:hover,
@@ -1691,5 +1691,6 @@
     }
     .second-list {
       display: inline-flex;
+      margin-top: 40px;
     }
   }

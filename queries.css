@@ -1717,7 +1717,9 @@
 /* 15" notebook */
 @media(min-width:1360px) and (max-width:1370px) {
   #large-img {
-    background:-webkit-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url(aliencovenant.jpeg);
+    background:-webkit-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),-moz-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),-o-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url(aliencovenant.jpeg);
+    background:-moz-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url('aliencovenant.jpeg');
+    background:-o-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url('aliencovenant.jpeg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1780,6 +1782,8 @@
 @media(min-width:1440px) and (max-width:1450px) {
   #large-img {
     background:-webkit-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url(aliencovenant.jpeg);
+    background:-moz-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url('aliencovenant.jpeg');
+    background:-o-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url('aliencovenant.jpeg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1895,6 +1899,8 @@
   }
   #large-img {
     background:-webkit-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url(aliencovenant.jpeg);
+    background:-moz-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url('aliencovenant.jpeg');
+    background:-o-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url('aliencovenant.jpeg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2016,6 +2022,8 @@
   }
   #large-img {
     background:-webkit-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url(aliencovenant.jpeg);
+    background:-moz-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url('aliencovenant.jpeg');
+    background:-o-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url('aliencovenant.jpeg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2143,6 +2151,8 @@
   }
   #large-img {
     background:-webkit-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url(aliencovenant.jpeg);
+    background:-moz-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url('aliencovenant.jpeg');
+    background:-o-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url('aliencovenant.jpeg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

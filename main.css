@@ -98,7 +98,9 @@
 
   #large-img {
     background:-webkit-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url(aliencovenant.jpeg);
-    -webkit-background-size: cover;
+    background:-moz-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url('aliencovenant.jpeg');
+    background:-o-linear-gradient(180deg, rgba(42,42,43,.3) 0%, #000000 100%),url('aliencovenant.jpeg');
+     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
